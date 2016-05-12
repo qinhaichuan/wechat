@@ -11,6 +11,7 @@
 #import "QHCContactsViewController.h"
 #import "QHCDiscoverViewController.h"
 #import "QHCMeViewController.h"
+#import "QHCNavigationController.h"
 
 @implementation QHCTabBarController
 
@@ -41,10 +42,10 @@
 
 - (void)setupChildVc
 {
-    [self setupOneChildVc:[[UINavigationController alloc] initWithRootViewController:[[QHCWeCahtViewController alloc] init]] title:@"WeChat" image:@"tabbar_mainframe" selectedImage:@"tabbar_mainframeHL"];
-   [self setupOneChildVc:[[UINavigationController alloc] initWithRootViewController:[[QHCContactsViewController alloc] init]] title:@"Contacts" image:@"tabbar_contacts" selectedImage:@"tabbar_contactsHL"];
-   [self setupOneChildVc:[[UINavigationController alloc] initWithRootViewController:[[QHCDiscoverViewController alloc] init]] title:@"Discover" image:@"tabbar_discover" selectedImage:@"tabbar_discoverHL"];
-   [self setupOneChildVc:[[UINavigationController alloc] initWithRootViewController:[[QHCMeViewController alloc] init]] title:@"Me" image:@"tabbar_me" selectedImage:@"tabbar_meHL"];
+    [self setupOneChildVc:[[QHCNavigationController alloc] initWithRootViewController:[[QHCWeCahtViewController alloc] init]] title:@"WeChat" image:@"tabbar_mainframe" selectedImage:@"tabbar_mainframeHL"];
+   [self setupOneChildVc:[[QHCNavigationController alloc] initWithRootViewController:[[QHCContactsViewController alloc] init]] title:@"Contacts" image:@"tabbar_contacts" selectedImage:@"tabbar_contactsHL"];
+   [self setupOneChildVc:[[QHCNavigationController alloc] initWithRootViewController:[[QHCDiscoverViewController alloc] init]] title:@"Discover" image:@"tabbar_discover" selectedImage:@"tabbar_discoverHL"];
+   [self setupOneChildVc:[[QHCNavigationController alloc] initWithRootViewController:[[QHCMeViewController alloc] init]] title:@"Me" image:@"tabbar_me" selectedImage:@"tabbar_meHL"];
 
 
 }

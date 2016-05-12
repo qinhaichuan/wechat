@@ -11,6 +11,7 @@
  #import <EMSDK.h>
 #import "QHCLoginViewController.h"
 #import "QHCTabBarController.h"
+#import "QHCNavigationController.h"
 
 @interface AppDelegate ()<EMClientDelegate>
 
@@ -22,8 +23,9 @@
 {
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
-    QHCTabBarController *tabBarVc = [[QHCTabBarController alloc] init];
-    self.window.rootViewController = tabBarVc;
+    self.window.rootViewController = [[QHCNavigationController alloc] initWithRootViewController:[[QHCLoginViewController alloc] init]];
+//    QHCTabBarController *tabBarVc = [[QHCTabBarController alloc] init];
+//    self.window.rootViewController = tabBarVc;
     [self.window makeKeyAndVisible];
     
     //AppKey:注册的AppKey，详细见下面注释。
@@ -37,7 +39,8 @@
     
     // 如果自动登录, 直接进入主界面(跳过登录界面)
     if ([EMClient sharedClient].options.isAutoLogin) {
-//        <#statements#>
+        QHCTabBarController *tabBarVc = [[QHCTabBarController alloc] init];
+        self.window.rootViewController = tabBarVc;
     }
     
     return YES;

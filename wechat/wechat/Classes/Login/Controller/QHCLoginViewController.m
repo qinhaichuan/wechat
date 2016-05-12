@@ -9,6 +9,8 @@
 #import "QHCLoginViewController.h"
 #import "UIView+AdjustFrame.h"
 #import <EMSDK.h>
+#import "QHCTabBarController.h"
+
 
 @interface QHCLoginViewController()
 
@@ -22,6 +24,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.navigationItem.title = @"登录";
     
     [self setupSubviews];
 }
@@ -37,7 +41,7 @@
     userNameTextF.placeholder = @"请输入账号";
     userNameTextF.width = 200;
     userNameTextF.height = 30;
-    userNameTextF.center = CGPointMake(self.view.width / 2, 100);
+    userNameTextF.center = CGPointMake(self.view.width / 2, 200);
     [self.view addSubview:userNameTextF];
     
     UITextField *pwdTextF = [[UITextField alloc] init];
@@ -47,7 +51,7 @@
     pwdTextF.placeholder = @"请输入账号";
     pwdTextF.width = 200;
     pwdTextF.height = 30;
-    pwdTextF.center = CGPointMake(self.view.width / 2, 150);
+    pwdTextF.center = CGPointMake(self.view.width / 2, 250);
     [self.view addSubview:pwdTextF];
     
     UIButton *loginBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -60,7 +64,7 @@
     [loginBtn.layer setBorderColor:[UIColor yellowColor].CGColor];
     loginBtn.width = 70;
     loginBtn.height = 20;
-    loginBtn.center = CGPointMake(self.view.width / 2, 200);
+    loginBtn.center = CGPointMake(self.view.width / 2, 300);
     [loginBtn addTarget:self action:@selector(loginClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:loginBtn];
     
@@ -74,7 +78,7 @@
     [registerBtn.layer setBorderColor:[UIColor yellowColor].CGColor];
     registerBtn.width = 70;
     registerBtn.height = 20;
-    registerBtn.center = CGPointMake(self.view.width / 2, 250);
+    registerBtn.center = CGPointMake(self.view.width / 2, 350);
     [registerBtn addTarget:self action:@selector(registerClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:registerBtn];
 }
@@ -87,7 +91,12 @@
         EMError *error = [[EMClient sharedClient] loginWithUsername:self.userNameTextF.text password:self.pwdTextF.text];
         if (!error) {
             NSLog(@"登录成功");
+            // 设置自动登录的状态，把用户的登录信息保存到沙盒
             [[EMClient sharedClient].options setIsAutoLogin:YES];
+            
+//            UINavigationController *nav = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+            [UIApplication sharedApplication].keyWindow.rootViewController = [[QHCTabBarController alloc] init];
+            
         }
     }
    

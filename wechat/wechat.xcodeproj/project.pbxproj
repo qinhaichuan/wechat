@@ -21,6 +21,8 @@
 		F89CCA931CE4719D00712D36 /* QHCDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CCA921CE4719D00712D36 /* QHCDiscoverViewController.m */; };
 		F89CCA981CE471FF00712D36 /* QHCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CCA971CE471FF00712D36 /* QHCMeViewController.m */; };
 		F89CCA9A1CE4807100712D36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89CCA991CE4807100712D36 /* Images.xcassets */; };
+		F89CCA9D1CE4953F00712D36 /* QHCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CCA9C1CE4953F00712D36 /* QHCNavigationController.m */; };
+		F89CCAA01CE49B6E00712D36 /* QHCNewFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CCA9F1CE49B6E00712D36 /* QHCNewFriendsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,10 @@
 		F89CCA961CE471FF00712D36 /* QHCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCMeViewController.h; sourceTree = "<group>"; };
 		F89CCA971CE471FF00712D36 /* QHCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCMeViewController.m; sourceTree = "<group>"; };
 		F89CCA991CE4807100712D36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F89CCA9B1CE4953F00712D36 /* QHCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCNavigationController.h; sourceTree = "<group>"; };
+		F89CCA9C1CE4953F00712D36 /* QHCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCNavigationController.m; sourceTree = "<group>"; };
+		F89CCA9E1CE49B6E00712D36 /* QHCNewFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCNewFriendsViewController.h; sourceTree = "<group>"; };
+		F89CCA9F1CE49B6E00712D36 /* QHCNewFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCNewFriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,8 @@
 			children = (
 				F89CCA8E1CE4718A00712D36 /* QHCContactsViewController.h */,
 				F89CCA8F1CE4718A00712D36 /* QHCContactsViewController.m */,
+				F89CCA9E1CE49B6E00712D36 /* QHCNewFriendsViewController.h */,
+				F89CCA9F1CE49B6E00712D36 /* QHCNewFriendsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +289,8 @@
 			children = (
 				F89CCA7D1CE470C500712D36 /* QHCTabBarController.h */,
 				F89CCA7E1CE470C500712D36 /* QHCTabBarController.m */,
+				F89CCA9B1CE4953F00712D36 /* QHCNavigationController.h */,
+				F89CCA9C1CE4953F00712D36 /* QHCNavigationController.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -452,7 +462,9 @@
 				F89CCA8A1CE470C500712D36 /* QHCTabBarController.m in Sources */,
 				F89CCA931CE4719D00712D36 /* QHCDiscoverViewController.m in Sources */,
 				F89CCA831CE470C500712D36 /* AppDelegate.m in Sources */,
+				F89CCAA01CE49B6E00712D36 /* QHCNewFriendsViewController.m in Sources */,
 				F89CCA8D1CE4717800712D36 /* QHCWeCahtViewController.m in Sources */,
+				F89CCA9D1CE4953F00712D36 /* QHCNavigationController.m in Sources */,
 				F89CCA981CE471FF00712D36 /* QHCMeViewController.m in Sources */,
 				F89CCA901CE4718A00712D36 /* QHCContactsViewController.m in Sources */,
 				F89CCA871CE470C500712D36 /* main.m in Sources */,
