@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB33A1263249CAD4C503723AD7D220D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9FB8D5869B81B2712B914BAF62338CE5 /* Pods-wechat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F96849C2DC3DEE613A6B7A9490152D /* Pods-wechat-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		058CF36B734DBBF31F526C24C2508684 /* EMClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMClientDelegate.h; path = HyphenateFullSDK/include/EMClientDelegate.h; sourceTree = "<group>"; };
+		064DF42F4E941438E5B7111A2526EE02 /* IEMChatroomManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatroomManager.h; path = HyphenateFullSDK/include/IEMChatroomManager.h; sourceTree = "<group>"; };
+		0D400833B044E13661489D6ACEC2EF7E /* EMImageMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMImageMessageBody.h; path = HyphenateFullSDK/include/EMImageMessageBody.h; sourceTree = "<group>"; };
+		18B112C53A2A8E2E2960F31AE4F4AD8D /* EMSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSDK.h; path = HyphenateFullSDK/include/EMSDK.h; sourceTree = "<group>"; };
+		1B5D8772B63FAEA79C7E5032E8A3710C /* EMPushOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushOptions.h; path = HyphenateFullSDK/include/EMPushOptions.h; sourceTree = "<group>"; };
+		1EA1D9C13BD78B68B02B8DBFB079874E /* IEMGroupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMGroupManager.h; path = HyphenateFullSDK/include/IEMGroupManager.h; sourceTree = "<group>"; };
+		202483CF4142024947095CE04AD26C3F /* IEMCallManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMCallManager.h; path = HyphenateFullSDK/include/IEMCallManager.h; sourceTree = "<group>"; };
+		2065B346AB271D12899788562F546FCA /* libHyphenateFullSDK_armv7s.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHyphenateFullSDK_armv7s.a; path = HyphenateFullSDK/lib/libHyphenateFullSDK_armv7s.a; sourceTree = "<group>"; };
+		21DE9C075F40742467C726DEF3D3FDA5 /* Pods-wechat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wechat-resources.sh"; sourceTree = "<group>"; };
+		25E10933D7CD1465840063CF86A37C35 /* Pods-wechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wechat.release.xcconfig"; sourceTree = "<group>"; };
+		2949A634C6580E15083E18BB1496487C /* EMCmdMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCmdMessageBody.h; path = HyphenateFullSDK/include/EMCmdMessageBody.h; sourceTree = "<group>"; };
+		29CCDF4A191B60A7788710C5BD17E952 /* EMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMConversation.h; path = HyphenateFullSDK/include/EMConversation.h; sourceTree = "<group>"; };
+		2C4A55DD040DDEF40F6AEAA7BED4FF91 /* EMOptions+PrivateDeploy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMOptions+PrivateDeploy.h"; path = "HyphenateFullSDK/include/EMOptions+PrivateDeploy.h"; sourceTree = "<group>"; };
+		30ED097A8DC622B882AD4A4AE8E1FFDE /* IEMContactManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMContactManager.h; path = HyphenateFullSDK/include/IEMContactManager.h; sourceTree = "<group>"; };
+		33F96849C2DC3DEE613A6B7A9490152D /* Pods-wechat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wechat-dummy.m"; sourceTree = "<group>"; };
+		3CBE5B438CF697AEEE46B5B685985BD8 /* libHyphenateFullSDK_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHyphenateFullSDK_i386.a; path = HyphenateFullSDK/lib/libHyphenateFullSDK_i386.a; sourceTree = "<group>"; };
+		4298034DEB03E0FF3E55CDA3F34EA7C1 /* Pods-wechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wechat.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9C523E749B33E4D32F91FC50800DFF /* EMCallLocalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallLocalView.h; path = HyphenateFullSDK/include/EMCallLocalView.h; sourceTree = "<group>"; };
+		554F1A2D05900DC8A5C03478275ED3A3 /* EMGroupOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupOptions.h; path = HyphenateFullSDK/include/EMGroupOptions.h; sourceTree = "<group>"; };
+		66A0EB32DADDFA483D082474B3B0CDB6 /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVoiceMessageBody.h; path = HyphenateFullSDK/include/EMVoiceMessageBody.h; sourceTree = "<group>"; };
+		6A235F7B838D81E7A1B3C20C70EBA01A /* Pods-wechat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wechat-frameworks.sh"; sourceTree = "<group>"; };
+		71C024EA8B35C0B0D5EFBA9C4AC72219 /* EMVideoMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVideoMessageBody.h; path = HyphenateFullSDK/include/EMVideoMessageBody.h; sourceTree = "<group>"; };
+		7C22B080271FFC56703662C240372291 /* EMSDKFull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSDKFull.h; path = HyphenateFullSDK/include/EMSDKFull.h; sourceTree = "<group>"; };
+		7C694C959BD33DED30CFB973A04B6575 /* EMTextMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMTextMessageBody.h; path = HyphenateFullSDK/include/EMTextMessageBody.h; sourceTree = "<group>"; };
+		7CA48CA7DC8AA13BFD053AB7F8ACC06C /* EMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMClient.h; path = HyphenateFullSDK/include/EMClient.h; sourceTree = "<group>"; };
+		7F5CEB0F792E9C84C9C8F82C4E1873BD /* EMGroupManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupManagerDelegate.h; path = HyphenateFullSDK/include/EMGroupManagerDelegate.h; sourceTree = "<group>"; };
+		8701F55AFDBE1595371A9E1EFC1F1328 /* EMCallSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallSession.h; path = HyphenateFullSDK/include/EMCallSession.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EF8E6DB8EAAECAECF2EF00C492A6CA /* EMErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMErrorCode.h; path = HyphenateFullSDK/include/EMErrorCode.h; sourceTree = "<group>"; };
+		994264440A5AF971370911A24F36772B /* EMChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroom.h; path = HyphenateFullSDK/include/EMChatroom.h; sourceTree = "<group>"; };
+		9A2C6AD15AA08F4599296947AD75D28C /* libHyphenateFullSDK_armv7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHyphenateFullSDK_armv7.a; path = HyphenateFullSDK/lib/libHyphenateFullSDK_armv7.a; sourceTree = "<group>"; };
+		9BAEFF5D2B489F4BD3A7CFEADAF1E732 /* EMCallRemoteView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallRemoteView.h; path = HyphenateFullSDK/include/EMCallRemoteView.h; sourceTree = "<group>"; };
+		A0D21A6FCC33D31184ACDCDFDD57EF63 /* EMFileMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMFileMessageBody.h; path = HyphenateFullSDK/include/EMFileMessageBody.h; sourceTree = "<group>"; };
+		A18F774537BA8E8D9ED25928832EC09D /* libPods-wechat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wechat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A548DF5EF3BD2F28779F3AEFE2421D36 /* EMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMError.h; path = HyphenateFullSDK/include/EMError.h; sourceTree = "<group>"; };
+		A58C24535352B7E6A26B50C9DF88BAA8 /* Pods-wechat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wechat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABDEFB3BA2661FFB2407A91AB5027854 /* EMCursorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCursorResult.h; path = HyphenateFullSDK/include/EMCursorResult.h; sourceTree = "<group>"; };
+		ABF33A70A9295627EF65313B738D9E5F /* EMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessage.h; path = HyphenateFullSDK/include/EMMessage.h; sourceTree = "<group>"; };
+		B34CAE11074D0A23055E607003F84520 /* EMContactManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMContactManagerDelegate.h; path = HyphenateFullSDK/include/EMContactManagerDelegate.h; sourceTree = "<group>"; };
+		BE9DC4F0D698C17DE20BEF45B6685BBE /* EMLocationMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMLocationMessageBody.h; path = HyphenateFullSDK/include/EMLocationMessageBody.h; sourceTree = "<group>"; };
+		C782648660D3056BA86E33CBA859C141 /* EMChatroomManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroomManagerDelegate.h; path = HyphenateFullSDK/include/EMChatroomManagerDelegate.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0463731562A5670473A2D9897AA9DB8 /* EMMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessageBody.h; path = HyphenateFullSDK/include/EMMessageBody.h; sourceTree = "<group>"; };
+		D654063DC32E7AF14C41E2B00FFCF7E6 /* EMOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMOptions.h; path = HyphenateFullSDK/include/EMOptions.h; sourceTree = "<group>"; };
+		D6607D13C40D8E2DD3B37ADCD759F95A /* OpenGLView20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLView20.h; path = HyphenateFullSDK/include/OpenGLView20.h; sourceTree = "<group>"; };
+		D9C7F62BD2621F76E173FE4C428E1266 /* EMGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroup.h; path = HyphenateFullSDK/include/EMGroup.h; sourceTree = "<group>"; };
+		DEB4426E3A630F1E18743B3DCCD960F2 /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDelegate.h; path = HyphenateFullSDK/include/EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		E17D10F716BD908D79518FB8E681365A /* libHyphenateFullSDK_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHyphenateFullSDK_arm64.a; path = HyphenateFullSDK/lib/libHyphenateFullSDK_arm64.a; sourceTree = "<group>"; };
+		E76F1C7D3C8B59D5ACBD0A2848E8997A /* IEMChatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatManager.h; path = HyphenateFullSDK/include/IEMChatManager.h; sourceTree = "<group>"; };
+		F95194ABE2EEBAC36963E55231A67A52 /* Pods-wechat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wechat-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB9EA63415EE0100C09A042B8F373332 /* libHyphenateFullSDK_x86_64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHyphenateFullSDK_x86_64.a; path = HyphenateFullSDK/lib/libHyphenateFullSDK_x86_64.a; sourceTree = "<group>"; };
+		FC2FB6C1E910000743B45DCBEAF32EBC /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallManagerDelegate.h; path = HyphenateFullSDK/include/EMCallManagerDelegate.h; sourceTree = "<group>"; };
+		FDF3173DB2EC4F4462209C001220D571 /* EMClient+Call.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMClient+Call.h"; path = "HyphenateFullSDK/include/EMClient+Call.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9E2A3FD23736E008F07C43C08944B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB33A1263249CAD4C503723AD7D220D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BEC47EEF1394EAA242436F15896C0AC /* Pods-wechat */ = {
+			isa = PBXGroup;
+			children = (
+				A58C24535352B7E6A26B50C9DF88BAA8 /* Pods-wechat-acknowledgements.markdown */,
+				F95194ABE2EEBAC36963E55231A67A52 /* Pods-wechat-acknowledgements.plist */,
+				33F96849C2DC3DEE613A6B7A9490152D /* Pods-wechat-dummy.m */,
+				6A235F7B838D81E7A1B3C20C70EBA01A /* Pods-wechat-frameworks.sh */,
+				21DE9C075F40742467C726DEF3D3FDA5 /* Pods-wechat-resources.sh */,
+				4298034DEB03E0FF3E55CDA3F34EA7C1 /* Pods-wechat.debug.xcconfig */,
+				25E10933D7CD1465840063CF86A37C35 /* Pods-wechat.release.xcconfig */,
+			);
+			name = "Pods-wechat";
+			path = "Target Support Files/Pods-wechat";
+			sourceTree = "<group>";
+		};
+		2D48AD2C71B97B056EB0AFC2FA4C64B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A18F774537BA8E8D9ED25928832EC09D /* libPods-wechat.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B7C519F52915360F0694215E1111827 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC47EEF1394EAA242436F15896C0AC /* Pods-wechat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C3F5217804AAA7ED86A8B0B70F04DB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76FDAAF36B5983311E27FD8262A98615 /* HyphenateFullSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76FDAAF36B5983311E27FD8262A98615 /* HyphenateFullSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4E9C523E749B33E4D32F91FC50800DFF /* EMCallLocalView.h */,
+				FC2FB6C1E910000743B45DCBEAF32EBC /* EMCallManagerDelegate.h */,
+				9BAEFF5D2B489F4BD3A7CFEADAF1E732 /* EMCallRemoteView.h */,
+				8701F55AFDBE1595371A9E1EFC1F1328 /* EMCallSession.h */,
+				DEB4426E3A630F1E18743B3DCCD960F2 /* EMChatManagerDelegate.h */,
+				994264440A5AF971370911A24F36772B /* EMChatroom.h */,
+				C782648660D3056BA86E33CBA859C141 /* EMChatroomManagerDelegate.h */,
+				7CA48CA7DC8AA13BFD053AB7F8ACC06C /* EMClient.h */,
+				FDF3173DB2EC4F4462209C001220D571 /* EMClient+Call.h */,
+				058CF36B734DBBF31F526C24C2508684 /* EMClientDelegate.h */,
+				2949A634C6580E15083E18BB1496487C /* EMCmdMessageBody.h */,
+				B34CAE11074D0A23055E607003F84520 /* EMContactManagerDelegate.h */,
+				29CCDF4A191B60A7788710C5BD17E952 /* EMConversation.h */,
+				ABDEFB3BA2661FFB2407A91AB5027854 /* EMCursorResult.h */,
+				A548DF5EF3BD2F28779F3AEFE2421D36 /* EMError.h */,
+				95EF8E6DB8EAAECAECF2EF00C492A6CA /* EMErrorCode.h */,
+				A0D21A6FCC33D31184ACDCDFDD57EF63 /* EMFileMessageBody.h */,
+				D9C7F62BD2621F76E173FE4C428E1266 /* EMGroup.h */,
+				7F5CEB0F792E9C84C9C8F82C4E1873BD /* EMGroupManagerDelegate.h */,
+				554F1A2D05900DC8A5C03478275ED3A3 /* EMGroupOptions.h */,
+				0D400833B044E13661489D6ACEC2EF7E /* EMImageMessageBody.h */,
+				BE9DC4F0D698C17DE20BEF45B6685BBE /* EMLocationMessageBody.h */,
+				ABF33A70A9295627EF65313B738D9E5F /* EMMessage.h */,
+				D0463731562A5670473A2D9897AA9DB8 /* EMMessageBody.h */,
+				D654063DC32E7AF14C41E2B00FFCF7E6 /* EMOptions.h */,
+				2C4A55DD040DDEF40F6AEAA7BED4FF91 /* EMOptions+PrivateDeploy.h */,
+				1B5D8772B63FAEA79C7E5032E8A3710C /* EMPushOptions.h */,
+				18B112C53A2A8E2E2960F31AE4F4AD8D /* EMSDK.h */,
+				7C22B080271FFC56703662C240372291 /* EMSDKFull.h */,
+				7C694C959BD33DED30CFB973A04B6575 /* EMTextMessageBody.h */,
+				71C024EA8B35C0B0D5EFBA9C4AC72219 /* EMVideoMessageBody.h */,
+				66A0EB32DADDFA483D082474B3B0CDB6 /* EMVoiceMessageBody.h */,
+				202483CF4142024947095CE04AD26C3F /* IEMCallManager.h */,
+				E76F1C7D3C8B59D5ACBD0A2848E8997A /* IEMChatManager.h */,
+				064DF42F4E941438E5B7111A2526EE02 /* IEMChatroomManager.h */,
+				30ED097A8DC622B882AD4A4AE8E1FFDE /* IEMContactManager.h */,
+				1EA1D9C13BD78B68B02B8DBFB079874E /* IEMGroupManager.h */,
+				D6607D13C40D8E2DD3B37ADCD759F95A /* OpenGLView20.h */,
+				80A5BB8E3CBE69E04B9C620D0F03B84B /* Frameworks */,
+			);
+			path = HyphenateFullSDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4C3F5217804AAA7ED86A8B0B70F04DB2 /* Pods */,
+				2D48AD2C71B97B056EB0AFC2FA4C64B9 /* Products */,
+				4B7C519F52915360F0694215E1111827 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80A5BB8E3CBE69E04B9C620D0F03B84B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E17D10F716BD908D79518FB8E681365A /* libHyphenateFullSDK_arm64.a */,
+				9A2C6AD15AA08F4599296947AD75D28C /* libHyphenateFullSDK_armv7.a */,
+				2065B346AB271D12899788562F546FCA /* libHyphenateFullSDK_armv7s.a */,
+				3CBE5B438CF697AEEE46B5B685985BD8 /* libHyphenateFullSDK_i386.a */,
+				FB9EA63415EE0100C09A042B8F373332 /* libHyphenateFullSDK_x86_64.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C613E1694F5864CEA495F9E504E1DB2 /* Pods-wechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9654EC534DBBDC76915BA17915D37B7 /* Build configuration list for PBXNativeTarget "Pods-wechat" */;
+			buildPhases = (
+				C38628F4BF299617282A20212458282B /* Sources */,
+				5E9E2A3FD23736E008F07C43C08944B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wechat";
+			productName = "Pods-wechat";
+			productReference = A18F774537BA8E8D9ED25928832EC09D /* libPods-wechat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2D48AD2C71B97B056EB0AFC2FA4C64B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C613E1694F5864CEA495F9E504E1DB2 /* Pods-wechat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38628F4BF299617282A20212458282B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB8D5869B81B2712B914BAF62338CE5 /* Pods-wechat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91BC1B7D5CCA9D341B377ADEB62AAE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E10933D7CD1465840063CF86A37C35 /* Pods-wechat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DCB566218526E9533C2BD0401D350C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4298034DEB03E0FF3E55CDA3F34EA7C1 /* Pods-wechat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9654EC534DBBDC76915BA17915D37B7 /* Build configuration list for PBXNativeTarget "Pods-wechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB566218526E9533C2BD0401D350C9E /* Debug */,
+				91BC1B7D5CCA9D341B377ADEB62AAE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
