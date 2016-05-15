@@ -55,6 +55,7 @@
 		F89CCA9C1CE4953F00712D36 /* QHCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCNavigationController.m; sourceTree = "<group>"; };
 		F89CCA9E1CE49B6E00712D36 /* QHCNewFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCNewFriendsViewController.h; sourceTree = "<group>"; };
 		F89CCA9F1CE49B6E00712D36 /* QHCNewFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCNewFriendsViewController.m; sourceTree = "<group>"; };
+		F89CCAA11CE4B2BB00712D36 /* QHC.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHC.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +261,7 @@
 			children = (
 				F89CCA6F1CE470C500712D36 /* AppDelegate.h */,
 				F89CCA701CE470C500712D36 /* AppDelegate.m */,
+				F89CCAA11CE4B2BB00712D36 /* QHC.pch */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -503,6 +505,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wechat/Classes/Other/App/QHC.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -546,6 +550,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wechat/Classes/Other/App/QHC.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
