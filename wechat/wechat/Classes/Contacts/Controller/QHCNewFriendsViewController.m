@@ -8,7 +8,6 @@
 
 #import "QHCNewFriendsViewController.h"
 
-
 @interface QHCNewFriendsViewController()<EMContactManagerDelegate>
 
 @property(nonatomic, weak) UITextField *friendTextF;
@@ -58,6 +57,7 @@
     EMError *error = [[EMClient sharedClient].contactManager addContact:self.friendTextF.text message:@"我想加您为好友"];
     if (!error) {
         NSLog(@"添加成功");
+        [self.navigationController popViewControllerAnimated:YES];
     }
     
 

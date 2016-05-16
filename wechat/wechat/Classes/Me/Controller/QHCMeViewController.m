@@ -8,7 +8,6 @@
 
 #import "QHCMeViewController.h"
 #import "UIView+AdjustFrame.h"
-#import <EMSDK.h>
 #import "QHCLoginViewController.h"
 
 @interface QHCMeViewController()<EMClientDelegate>

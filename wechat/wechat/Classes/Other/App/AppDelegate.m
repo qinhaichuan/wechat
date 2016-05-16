@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 //#import <HyphenateFullSDK/EMSDKFull.h>
- #import <EMSDK.h>
 #import "QHCLoginViewController.h"
 #import "QHCTabBarController.h"
 #import "QHCNavigationController.h"
